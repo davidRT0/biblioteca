@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Municipal</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- SESIÓN -->
+        <div id="container-sesion">
+            <div></div>
+            <div><p><img src="./img/usuario.png" id="usuario">INICIAR SESIÓN</p></div>
+        </div>
+        <!-- LOGO -->
+        <div id="container-logo">
+            <div>
+                <h1>Biblioteca Municipal</h1>
+            </div>
+            <div>
+                <img src="./img/logo.png" alt="logo" id="logo">
+            </div>
+            <div>
+                <h2>Catálogo <span>Digital</span></h2>
+            </div>
+        </div>
+        <!-- NAVEGACIÓN -->
+        <div id="container-navegacion">
+            <ul>
+                <li>INICIO</li>
+                <li>NOVEDADES</li>
+                <li>LIBRERÍAS</li>
+                <li>CONTACTO</li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- FORMULARIO -->
+    <div class="formulario">
+        <form action="">
+            <label for="">Buscar</label>
+            <select name="seleccion" id="seleccion">
+                <option disabled selected>Catálogo de Biblioteca</option>
+                <option value="titulo">Título</option>
+                <option value="autor">Autor</option>
+                <option value="anio">Año</option>
+                <option value="categoria">Categoría</option>
+                <option value="categoria">Librería</option>
+            </select>
+            <input type="text" name="busqueda" id="busqueda">
+        </form>
+    </div>
+
+</body>
+
+</html>
